@@ -1,75 +1,68 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+Run In Your Device For Your Best Experience....!!!!
+# 📱 React Bottom Sheet with Snap Points and Spring Motion
+A beautiful, responsive Bottom Sheet built with **React** and **vanilla CSS/JS animation**, featuring smooth **spring motion** and multiple snap points — all without using animation libraries like `framer-motion` or `react-spring-bottom-sheet`.
+## 🚀 Features
+- 🎯 Multiple snap points: **Closed**, **Half-open**, and **Fully open**
+- 🧼 Smooth spring animation using `requestAnimationFrame`
+- 🎨 Clean, minimal, and responsive design
+- 🖱️ Drag-and-drop gesture support
+- 🔘 Header buttons for direct snap control
+- 📱 Mobile-friendly
+## 📁 Folder Structure
+React-Bottom-Sheet/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ └── BottomSheet.jsx
+│ ├── styles/
+│ │ └── BottomSheet.css
+│ ├── App.js
+│ ├── index.js
+│ └── index.css
+└── package.json
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 🛠️ Getting Started
+### 1. Clone the Repository
+```bash
+git clone https://github.com/vishnuBhai16/React-Bottom-Sheet.git
+cd React-Bottom-Sheet
 
-In the project directory, you can run:
+CLOSED:
+(https://github.com/user-attachments/assets/29d0228f-8b32-434b-b968-e338305fd7ee)
 
-### `npm start`
+HALF CLOSED:
+(https://github.com/user-attachments/assets/bec79573-2adf-4e0d-88ce-39f1ce9346a0)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Full OPEN:
+(https://github.com/user-attachments/assets/4b37a063-6699-4e3e-b898-8a20d8b66696)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+💡 How It Works
+The spring effect is implemented manually using:
 
-### `npm test`
+requestAnimationFrame
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Dynamic velocity & tension simulation
 
-### `npm run build`
+Manual drag gesture calculations (no 3rd-party drag libraries)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✨ Customization Ideas
+Add dark/light mode toggle
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Add keyboard accessibility
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Add snapping with mouse wheel
 
-### `npm run eject`
+Add unit tests with Jest + React Testing Library
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📄 License
+This project is open-source and available under the MIT License.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🤝 Contributing
+Contributions are welcome!
+If you find bugs or want to improve the UI/UX, feel free to fork this repo and raise a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# React-Bottom-Sheet
-Kindly Open In Your Mobile
->>>>>>> f615b368d17e658d2a2ced9a1993c34ad7456e75
+🙋‍♂️ Author
+Vishnu Singh
