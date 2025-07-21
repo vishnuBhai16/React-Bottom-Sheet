@@ -1,0 +1,71 @@
+.bottom-sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 80px);
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.1);
+  transition: top 0.1s ease;
+  will-change: top;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sheet-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  background-color: white;
+}
+
+.drag-handle {
+  height: 30px;
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: grab;
+  width: 100%;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.header-buttons button {
+  padding: 8px 14px;
+  background-color: #4c6ef5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.header-buttons button:hover {
+  background-color: #364fc7;
+}
+
+.sheet-content {
+  padding: 1rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .sheet-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .header-buttons {
+    flex-direction: column;
+  }
+}
